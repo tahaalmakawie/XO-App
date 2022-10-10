@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.title{
+  background: #613499;
+  padding: 5px 0;
+  margin: 5px 0;
+}
+
+h3{
+  color: aliceblue;
+  margin-top: 10px;
+}
+h3 span{
+  color: rgb(243, 220, 9);
+}
+.squre{
+  
+  width: 129px;
+  height: 129px;
+  background: #613499;
+  /* is back = #ef1372 */
+  float: left;
+  margin: 2px;
+  font-size: 100px;
+  color: aliceblue;
+}
+.squre:hover{
+  background: #000;
+  /* color:#da1818 */
+}
+h3 span.span{
+  color: chartreuse;
+  font-size: 25px;
+}
